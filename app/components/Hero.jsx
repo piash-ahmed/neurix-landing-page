@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <div className="w-11/12 md:w-10/12 mx-auto pt-20 md:pt-40 pb-16">
+    <div
+      className="w-11/12 md:w-10/12 mx-auto pt-20 md:pt-40 pb-16"
+      
+    >
       <div className="text-white p-1 m-3">
         <h4 className="text-[16px] md:text-[22px] text-[#D0D5DD] w-full">
           Powerful, Scalable, and Easy-to-Managed Platform
@@ -21,9 +24,6 @@ export default function Hero() {
           </button>
         </div>
       </div>
-
-
-      
     </div>
   );
 }
