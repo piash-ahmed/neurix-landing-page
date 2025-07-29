@@ -2,7 +2,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Services() {
   return (
-    <div className="bg-[#08090a] pt-28 pb-40">
+    <div className="pt-28 pb-10">
       <div className="w-10/12 mx-auto ">
         <h4 className="text-[#D0D5DD] text-lg md:text-xl mb-3">Our Services</h4>
         <h2 className="text-white text-3xl md:text-5xl md:w-5/6 lg:w-3/6 leading-[120%]">
