@@ -1,6 +1,6 @@
 export default function HowItWorks() {
   return (
-    <section className="py-20 w-11/12 mx-auto px-8">
+    <section className="    w-11/12 mx-auto px-8">
       <div className="text-center pb-36 p-1.5">
         <h4 className="text-[#D0D5DD] text-xl">How It Works</h4>
         <h1 className="text-white text-[30px] md:text-[38px] lg:text-[50px]">
@@ -10,7 +10,7 @@ export default function HowItWorks() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <div
-          className="text-center rounded-2xl px-8 py-12 relative"
+          className="text-center rounded-2xl px-8 py-12 mb-12 relative"
           style={{
             background: "linear-gradient(to top, #0d0e0f, #0c171f)",
             borderLeft: "2px solid #132129",
@@ -37,7 +37,7 @@ export default function HowItWorks() {
           </p>
         </div>
         <div
-          className="text-center rounded-2xl px-8 py-12 relative"
+          className="text-center rounded-2xl px-8 py-12 mb-12 relative"
           style={{
             background: "linear-gradient(to top, #0d0e0f, #0c171f)",
             borderLeft: "2px solid #132129",
@@ -63,7 +63,7 @@ export default function HowItWorks() {
           </p>
         </div>
         <div
-          className="text-center rounded-2xl px-8 py-12 relative"
+          className="text-center rounded-2xl px-8 py-12 mb-12 relative"
           style={{
             background: "linear-gradient(to top, #0d0e0f, #0c171f)",
             borderLeft: "2px solid #132129",

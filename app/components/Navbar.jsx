@@ -114,7 +114,7 @@ export default function Navbar() {
           <a href="" className="mr-3 md:mr-6 text-xs md:text-base text-[#FFFFFFB3] font-light">
             Support
           </a>
-          <a className="btn font-normal text-xs md:text-[16px] rounded-full px-4 md:px-6 border-0 hover:bg-blue-300">
+          <a className="btn font-normal text-xs md:text-[16px] rounded-full px-4 md:px-6 border-0 hover:bg-white shadow-none">
             <span className="text-sm md:text-[20px]">
               <FiUser />
             </span>
