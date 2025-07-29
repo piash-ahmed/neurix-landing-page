@@ -11,7 +11,7 @@ export default function LogoSlider() {
 
   const infiniteLogos = Array(10).fill(logos).flat();
   return (
-    <div className="relative overflow-hidden bg-transparent top-16 md:top-26 pb-6">
+    <div className="relative overflow-hidden bg-transparent top-16 md:top-26">
       <div
         className="pointer-events-none absolute left-0 top-0 h-full w-32 z-10"
         style={{
