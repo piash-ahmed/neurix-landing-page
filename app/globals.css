@@ -6,16 +6,41 @@ body {
   font-family: "Geist", sans-serif;
 }
 
-/* logo slider */
-@keyframes scroll {
+/* Company logos slider */
+@keyframes logo-slider {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+.animate-logo-slider {
+  animation: logo-slider 12s linear infinite;
+}
 
-.infinite-slider {
-  animation: scroll 100s linear infinite;
+/* Happy clients slider 1 */
+@keyframes client-slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-client-slider {
+  animation: client-slider 16s linear infinite;
+}
+
+/* Happy clients slider 2 */
+@keyframes client-slider-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.animate-client-slider-reverse {
+  animation: client-slider-reverse 16s linear infinite;
 }

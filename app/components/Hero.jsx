@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <div className="w-11/12 md:w-10/12 mx-auto pt-20 md:pt-40 md:pb-16">
+    <section className="w-11/12 md:w-10/12 mx-auto pt-20 md:pt-40 md:pb-16">
       <div className="text-white p-1 m-3">
         <h4 className="text-[16px] md:text-[22px] text-[#D0D5DD] w-full">
           Powerful, Scalable, and Easy-to-Managed Platform
@@ -20,11 +20,11 @@ export default function Hero() {
             Get Started Now
             <BsArrowRight className="text-base md:text-lg"/>
           </a>
-          <a href="" className="bg-[#303437] text-sm md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white">
+          <a href="" className="bg-[#303437] text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white">
             View Pricing
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
