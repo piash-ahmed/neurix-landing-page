@@ -5,33 +5,17 @@ body {
   background-color: #070b0d;
   font-family: "Geist", sans-serif;
 }
-.header-bg {
-  min-height: 467px;
-  width: 100%;
-  background: radial-gradient(
-    ellipse 80% 60% at 50% 0%,
-    #032886 0%,
-    #051b3886 60%,
-    #000 100%
-  );
-  position: relative;
-  overflow: hidden;
+
+/* logo slider */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-.header-bg::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: repeating-radial-gradient(
-      circle at 20% 30%,
-      #fff2 0 1px,
-      transparent 1px 100%
-    ),
-    repeating-radial-gradient(
-      circle at 70% 60%,
-      #fff1 0 1px,
-      transparent 1px 100%
-    );
-  pointer-events: none;
-  z-index: 1;
+.infinite-slider {
+  animation: scroll 100s linear infinite;
 }
