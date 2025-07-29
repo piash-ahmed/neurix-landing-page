@@ -49,8 +49,7 @@ export default function OurClients() {
       name: "Jonathan Simcoe",
       title: "@jdsimcoe",
       desc: `All righty. I have to give a massive shout-out to
-            @neurix for pioneering @rabby. It has already
-            matured to a point where it is a daily driver for me. The
+            @neurix for pioneering @rabby. It is a daily driver for me. The
             speed, focus, and attention to detail (especially perfect
             bits of structured data) is superb.`,
       logo: "/user6.jpg",
