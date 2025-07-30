@@ -1,3 +1,4 @@
+import FAQSection from "./components/FAQSection";
 import Header from "./components/Header";
 import HowItWorks from "./components/HowItWorks";
 import OurClients from "./components/OurClients";
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyNeurix/>
       <OurClients/>
       <HowItWorks/>
+      <FAQSection/>
     </>
   );
 }

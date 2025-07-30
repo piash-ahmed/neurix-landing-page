@@ -1,6 +1,6 @@
 export default function HowItWorks() {
   return (
-    <section className="    w-11/12 mx-auto px-8">
+    <section className="w-10/12 mx-auto">
       <div className="text-center pb-36 p-1.5">
         <h4 className="text-[#D0D5DD] text-xl">How It Works</h4>
         <h1 className="text-white text-[30px] md:text-[38px] lg:text-[50px]">
