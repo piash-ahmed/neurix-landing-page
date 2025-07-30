@@ -1,4 +1,5 @@
 import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HowItWorks from "./components/HowItWorks";
 import OurClients from "./components/OurClients";
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorks/>
       <FAQSection/>
       <OurMilestone/>
+      <Footer/>
     </>
   );
 }

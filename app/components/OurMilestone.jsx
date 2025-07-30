@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default function OurMilestone() {
   return (
     <section
-      className=" text-white flex flex-col items-center pb-20 bg-cover bg-top bg-no-repeat"
+      className=" text-white flex flex-col items-center pb-30 bg-cover bg-top bg-no-repeat"
       style={{ backgroundImage: "url('/galaxy-circle.png')" }}
     >
       <div className="-mt-10">
