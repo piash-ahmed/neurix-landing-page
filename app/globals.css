@@ -2,7 +2,8 @@
 @plugin "daisyui";
 
 body {
-  background-color: #08090a;
+  /* background-color: #08090a; */
+  background-color: #000;
   font-family: "Geist", sans-serif;
 }
 
