@@ -7,6 +7,13 @@ body {
   font-family: "Geist", sans-serif;
 }
 
+details, summary {
+  background-color: transparent !important;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+}
+
 /* Company logos slider */
 @keyframes logo-slider {
   0% {

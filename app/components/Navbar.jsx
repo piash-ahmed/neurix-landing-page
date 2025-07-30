@@ -26,35 +26,58 @@ export default function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2"
             >
               <li>
                 <a>Home</a>
               </li>
               <li>
-                <a>Product</a>
-                <ul className="p-2">
-                  <li>
-                    <a>
-                      <Image src="/cloud.png" height={22} width={22} alt="" />{" "}
-                      Cloud Service
+                <details>
+                  <summary>Product</summary>
+                  <ul className="px-3 py-1.5 text-[#E2E2E2] bg-[#061d42] w-34 text-xs flex justify-start rounded-md">
+                    <a className="flex items-center justify-center gap-1 cursor-pointer">
+                      <img
+                        className="h-6 w-6 bg-[#15274a] rounded-full p-1 ml-1"
+                        src="/cloud.png"
+                      />
+                      Cloud Services
                     </a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                  </ul>
+                </details>
               </li>
               <li>
-                <a>Domain</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <details>
+                  <summary>Domain</summary>
+                  <ul
+                    className="p-3 text-[#E2E2E2] text-xs w-44 flex flex-col items-center gap-2 rounded-md"
+                    style={{
+                      background:
+                        "linear-gradient(to bottom, #071f44, #071227)",
+                    }}
+                  >
+                    <a className="flex items-center justify-center gap-1.5 cursor-pointer border-b border-[#1a2a4c] pb-2">
+                      <img
+                        className="h-6 w-6 bg-[#15274a] rounded-full p-1"
+                        src="/domain.png"
+                      />
+                      Register Domain
+                    </a>
+                    <a className="flex items-center justify-center gap-1.5 cursor-pointer border-b border-[#1a2a4c] pb-2">
+                      <img
+                        className="h-6 w-6 bg-[#15274a] rounded-full p-1"
+                        src="/switch-horizontal.png"
+                      />
+                      Transfer Domain
+                    </a>
+                    <a className="flex items-center justify-center gap-1.5 cursor-pointer">
+                      <img
+                        className="h-6 w-6 bg-[#15274a] rounded-full p-1"
+                        src="/dollar-circle.png"
+                      />
+                      Domain Pricing
+                    </a>
+                  </ul>
+                </details>
               </li>
               <li>
                 <a>Pricing</a>
@@ -64,6 +87,7 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
+
           <a className="cursor-pointer mr-3">
             <Image
               src="/main-logo.png"
@@ -79,24 +103,52 @@ export default function Navbar() {
             <li>
               <a>Home</a>
             </li>
+            {/* dropdown one */}
             <li>
               <details>
                 <summary>Product</summary>
-                <ul className="p-2 text-black">
-                  <a>
-                    <Image src="/cloud.png" height={22} width={22} alt="" />{" "}
-                    Cloud Service
+                <ul className="p-3 text-[#E2E2E2] bg-[#061d42] w-44 text-sm flex justify-start relative -left-20">
+                  <a className="flex items-center justify-center gap-2 cursor-pointer">
+                    <img
+                      className="h-9 w-9 bg-[#15274a] rounded-full p-2 ml-1"
+                      src="/cloud.png"
+                    />
+                    Cloud Services
                   </a>
                 </ul>
               </details>
             </li>
+
+            {/* dropdown two */}
             <li>
               <details>
                 <summary>Domain</summary>
-                <ul className="p-2 text-black">
-                  <a>
-                    <Image src="/cloud.png" height={22} width={22} alt="" />{" "}
-                    Cloud Service
+                <ul
+                  className="p-3 text-[#E2E2E2] w-44 text-sm flex flex-col items-center gap-2"
+                  style={{
+                    background: "linear-gradient(to bottom, #071f44, #071227)",
+                  }}
+                >
+                  <a className="flex items-center justify-center gap-1.5 cursor-pointer border-b border-[#1a2a4c] pb-2">
+                    <img
+                      className="h-9 w-9 bg-[#15274a] rounded-full p-2"
+                      src="/domain.png"
+                    />
+                    Register Domain
+                  </a>
+                  <a className="flex items-center justify-center gap-1.5 cursor-pointer border-b border-[#1a2a4c] pb-2">
+                    <img
+                      className="h-9 w-9 bg-[#15274a] rounded-full p-2"
+                      src="/switch-horizontal.png"
+                    />
+                    Transfer Domain
+                  </a>
+                  <a className="flex items-center justify-center gap-1.5 cursor-pointer">
+                    <img
+                      className="h-9 w-9 bg-[#15274a] rounded-full p-2"
+                      src="/dollar-circle.png"
+                    />
+                    Domain Pricing
                   </a>
                 </ul>
               </details>
@@ -111,11 +163,14 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="" className="mr-3 md:mr-6 text-xs md:text-base text-[#FFFFFFB3] font-light">
+          <a
+            href=""
+            className="mr-2 md:mr-6 text-xs md:text-base text-[#FFFFFFB3] font-light"
+          >
             Support
           </a>
-          <a className="btn font-normal text-xs md:text-[16px] rounded-full px-4 md:px-6 border-0 hover:bg-white shadow-none">
-            <span className="text-sm md:text-[20px]">
+          <a className="bg-white text-black flex gap-1 items-center font-normal text-xs md:text-[16px] rounded-full px-2.5 py-1.5  md:px-6 md:py-3 border-0 hover:bg-white shadow-none cursor-pointer">
+            <span className="text-xs md:text-[20px]">
               <FiUser />
             </span>
             Client Area

@@ -14,10 +14,10 @@ export default function Footer() {
             manage, and ready to scale.
           </p>
           <div className="flex gap-2 mt-8 md:mt-10">
-            <img className="h-10 w-10" src="/tiktok.png" alt="" />
-            <img className="h-10 w-10" src="/facebook.png" alt="" />
-            <img className="h-10 w-10" src="/instagram.png" alt="" />
-            <img className="h-10 w-10" src="/discord.png" alt="" />
+            <a href=""><img className="h-10 w-10" src="/tiktok.png" alt="" /></a>
+            <a href=""><img className="h-10 w-10" src="/facebook.png" alt="" /></a>
+            <a href=""><img className="h-10 w-10" src="/instagram.png" alt="" /></a>
+            <a href=""><img className="h-10 w-10" src="/discord.png" alt="" /></a>
           </div>
         </aside>
 
