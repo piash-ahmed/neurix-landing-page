@@ -169,7 +169,7 @@ export default function FAQSection() {
           </p>
           <a
             href="#"
-            className="bg-[#FFFFFF29] text-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full flex items-center justify-center gap-1 md:gap-2 w-48 md:w-70 mt-10"
+            className="bg-[#FFFFFF29] text-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full flex items-center justify-center gap-1 md:gap-2 w-48 md:w-70 mt-10 hover:bg-gradient-to-r from-[#1488fc]  to-[#042f4e] transition hover:text-white"
           >
             Visit KnowledgeBase
             <BsArrowRight className="text-base md:text-lg" />
@@ -194,7 +194,7 @@ export default function FAQSection() {
                   </span>
                   <button
                     onClick={() => toggleFAQ(index)}
-                    className="text-white text-xl focus:outline-none cursor-pointer hover:bg-gray-400 hover:text-black hover:rounded-full"
+                    className="text-white text-xl focus:outline-none cursor-pointer hover:bg-[#80808038] p-1 hover:rounded-full"
                   >
                     {isOpen ? <BsDash /> : <BsPlus />}
                   </button>

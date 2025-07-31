@@ -68,14 +68,14 @@ export default function OurMilestone() {
 
         <div className="space-x-5 mt-11 flex justify-center">
           <a href="#"
-            className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center gap-1 md:gap-2"
+            className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center gap-1 md:gap-2 hover:bg-gradient-to-r from-[#1488fc]  to-[#042f4e] transition hover:text-white"
           >
             Get Started Now
             <BsArrowRight className="text-base md:text-lg" />
           </a>
           <a
             href="#"
-            className="bg-[#303437] text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white"
+            className="bg-[#303437] text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white hover:bg-gradient-to-r from-[#1488fc]  to-[#042f4e] transition hover:text-white"
           >
             View Pricing
           </a>

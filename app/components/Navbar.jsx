@@ -7,7 +7,11 @@ export default function Navbar() {
       <div className="navbar text-white p-3">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost bg-transparent border-none lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost bg-transparent border-none lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -28,8 +32,7 @@ export default function Navbar() {
               tabIndex={0}
               className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 border-white/90 shadow-lg backdrop-blur-md"
               style={{
-                background:
-                  "linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.1))",
+                background: "linear-gradient(to bottom, #072045, #081124)",
               }}
             >
               <li>
@@ -239,7 +242,9 @@ export default function Navbar() {
           </a>
           <a
             href="#"
-            className="bg-white text-black flex gap-1 items-center font-normal text-xs md:text-[16px] rounded-full px-2.5 py-1.5  md:px-6 md:py-3 border-0 hover:bg-blue-300 shadow-none cursor-pointer"
+            className="bg-white text-black flex gap-1 items-center font-normal text-xs md:text-[16px] rounded-full px-2.5 py-1.5  md:px-6 md:py-3 border-0 hover:bg-blue-300 shadow-none cursor-pointer 
+            hover:bg-gradient-to-r from-[#1488fc]  to-[#042f4e] transition hover:text-white
+            "
           >
             <span className="text-xs md:text-[20px]">
               <FiUser />

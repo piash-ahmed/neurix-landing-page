@@ -23,7 +23,7 @@ export default function HowItWorks() {
           <div className="flex justify-center relative -top-26 md:-top-28 lg:-top-30">
             <img
               className="w-[50%] md:w-[40%] lg:w-[35%]"
-              src="/icon1.png"
+              src="/icon-1.png"
               alt=""
             />
           </div>
@@ -50,7 +50,7 @@ export default function HowItWorks() {
           <div className="flex justify-center relative -top-26 md:-top-28 lg:-top-30">
             <img
               className="w-[50%] md:w-[40%] lg:w-[35%]"
-              src="/icon2.png"
+              src="/icon-2.png"
               alt=""
             />
           </div>
@@ -76,7 +76,7 @@ export default function HowItWorks() {
           <div className="flex justify-center relative -top-26 md:-top-28 lg:-top-30">
             <img
               className="w-[50%] md:w-[40%] lg:w-[35%]"
-              src="/icon3.png"
+              src="/icon-3.png"
               alt=""
             />
           </div>

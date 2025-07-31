@@ -34,7 +34,7 @@ export default function WhyNeurix() {
         </ul>
         <a
           href="#"
-          className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center justify-center gap-1 md:gap-2 w-46 md:w-56 mt-10"
+          className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center justify-center gap-1 md:gap-2 w-46 md:w-56 mt-10 hover:bg-gradient-to-r from-[#1488fc]  to-[#042f4e] transition hover:text-white"
         >
           Get Started Now
           <BsArrowRight className="text-base md:text-lg" />

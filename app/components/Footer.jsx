@@ -20,7 +20,7 @@ export default function Footer() {
             manage, and ready to scale.
           </p>
           <div className="flex gap-2 mt-8 md:mt-10">
-            <a href="#"><FaTiktok className="h-10 w-10 bg-[#1c2328] p-2.5 rounded-full"/></a>
+            <a href="#"><FaTiktok className="h-10 w-10 bg-[#bac0c425] p-2.5 rounded-full"/></a>
             <a href="#"><FaFacebook className="h-10 w-10 bg-[#1c2328] p-2.5 rounded-full"/></a>
             <a href="#"><AiFillInstagram className="h-10 w-10 bg-[#1c2328] p-2.5 rounded-full"/></a>
             <a href="#"><FaDiscord className="h-10 w-10 bg-[#1c2328] p-2.5 rounded-full"/></a>
@@ -71,7 +71,7 @@ export default function Footer() {
           <a className="link link-hover text-[#FFFFFFB8] text-sm">
             Company Number (UK): 15189998
           </a>
-          <a href="#" className="bg-[#FFFFFF29] text-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full flex items-center justify-center gap-1 md:gap-2 w-48 lg:w-70 mt-8 cursor-pointer">
+          <a href="#" className="bg-[#FFFFFF29] text-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full flex items-center justify-center gap-1 md:gap-2 w-48 lg:w-70 mt-8 cursor-pointer hover:bg-gradient-to-r from-[#1488fc]  to-[#042f4e] transition hover:text-white">
             <img src="/chat.png" alt="" />
             Chat with Massenger
           </a>
