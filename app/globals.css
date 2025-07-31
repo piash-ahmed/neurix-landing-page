@@ -2,12 +2,19 @@
 @plugin "daisyui";
 
 body {
-  /* background-color: #08090a; */
-  background-color: #000;
+  background-color: #08090a;
+  /* background-color: #000; */
   font-family: "Geist", sans-serif;
 }
 
-details, summary {
+.dropdown-item:hover{
+  background-color: rgba(128, 128, 128, 0.219);
+}
+.dropdown-item:hover .dropdown-item-img{
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+details, summary, svg {
   background-color: transparent !important;
   outline: none !important;
   -webkit-tap-highlight-color: transparent;

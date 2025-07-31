@@ -7,7 +7,9 @@ export default function OurMilestone() {
       style={{ backgroundImage: "url('/galaxy-circle.png')" }}
     >
       <div className="-mt-10">
-        <img src="/hand-logo.png" alt="Hand Logo" className="mx-auto" />
+        <img src="/hand-blue-logo.jpg" alt="Hand Logo" className="mx-auto mix-blend-lighten w-[462px] h-[462px]" 
+        
+        />
       </div>
       <div className="-mt-8">
         <div className="w-full ">
@@ -65,15 +67,14 @@ export default function OurMilestone() {
         </div>
 
         <div className="space-x-5 mt-11 flex justify-center">
-          <a
-            href=""
+          <a href="#"
             className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center gap-1 md:gap-2"
           >
             Get Started Now
             <BsArrowRight className="text-base md:text-lg" />
           </a>
           <a
-            href=""
+            href="#"
             className="bg-[#303437] text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white"
           >
             View Pricing

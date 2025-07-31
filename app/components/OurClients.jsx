@@ -8,7 +8,7 @@ export default function OurClients() {
             thoughts, details and soundbites from episodes, books,
             meetings, articles, etc from the past week. So far, it’s a
             knowledge worker’s dream come true.`,
-      logo: "/user1.png",
+      logo: "/client-1.png",
     },
     {
       name: "Sean Rose",
@@ -17,13 +17,13 @@ export default function OurClients() {
             right amount of simple/fast for a personal note taking
             app and does most of the hard work of organizing in
             the background.`,
-      logo: "/user2.png",
+      logo: "/client-2.png",
     },
     {
       name: "Ryan Delk",
       title: "Digital marketer",
       desc: `Don’t take it from me: @neurix is magic.`,
-      logo: "/user3.png",
+      logo: "/client-3.png",
     },
   ];
 
@@ -35,7 +35,7 @@ export default function OurClients() {
             It is well thought out, and I can see this being my note-
             taking platform going forward. Well done! I'm looking
             forward to seeing how the app progresses.`,
-      logo: "/user4.png",
+      logo: "/client-4.png",
     },
     {
       name: "Fabrizio Rinaldi",
@@ -43,7 +43,7 @@ export default function OurClients() {
       desc: `I’m keeping @neurix open *all* the time, and I’m
             using both for simple journaling, and long form writing.
             It’s rare to see a single app work so well for both.`,
-      logo: "/user5.png",
+      logo: "/client-5.png",
     },
     {
       name: "Jonathan Simcoe",
@@ -52,7 +52,7 @@ export default function OurClients() {
             @neurix for pioneering @rabby. It is a daily driver for me. The
             speed, focus, and attention to detail (especially perfect
             bits of structured data) is superb.`,
-      logo: "/user6.jpg",
+      logo: "/client-6.jpg",
     },
   ];
 

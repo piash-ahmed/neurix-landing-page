@@ -30,7 +30,7 @@ export default function Services() {
               Easy-to-manage domains designed to grow with your business.
             </p>
             <a
-              href=""
+              href="#"
               className="flex items-center gap-1 text-sm md:text-base font-light "
               style={{
                 textDecoration: "underline",
@@ -68,7 +68,7 @@ export default function Services() {
               Scalable, secure, and lightning-fast <br /> cloud solutions.
             </p>
             <a
-              href=""
+              href="#"
               className="flex items-center gap-1 text-sm md:text-base font-light "
               style={{
                 textDecoration: "underline",

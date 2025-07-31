@@ -33,15 +33,15 @@ export default function WhyNeurix() {
           </li>
         </ul>
         <a
-          href=""
+          href="#"
           className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center justify-center gap-1 md:gap-2 w-46 md:w-56 mt-10"
         >
           Get Started Now
           <BsArrowRight className="text-base md:text-lg" />
         </a>
       </div>
-      <div>
-        <img src="/startup-logo.png" alt="" />
+      <div className="w-full lg:w-5/6 mix-blend-lighten">
+        <img src="/startup-logo.jpg" alt="" />
       </div>
     </section>
   );

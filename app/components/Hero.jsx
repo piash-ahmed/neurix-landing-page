@@ -16,11 +16,11 @@ export default function Hero() {
           big product or online store.
         </p>
         <div className="space-x-5 mt-11 flex">
-          <a href="" className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center gap-1 md:gap-2">
+          <a href="#" className="bg-white text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-[#324351] flex items-center gap-1 md:gap-2">
             Get Started Now
             <BsArrowRight className="text-base md:text-lg"/>
           </a>
-          <a href="" className="bg-[#303437] text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white">
+          <a href="#" className="bg-[#303437] text-xs md:text-base px-6 py-3 md:px-9 md:py-4 rounded-full text-white">
             View Pricing
           </a>
         </div>

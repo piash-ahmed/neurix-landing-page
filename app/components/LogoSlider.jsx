@@ -2,6 +2,7 @@
 
 export default function LogoSlider() {
   const logos = [
+    "/solana.png",
     "/bitget.png",
     "/kucoin.png",
     "/bybit.png",
